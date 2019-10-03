@@ -81,9 +81,11 @@ h1 {
 }
 
 .nav {
-    position: relative;
+    position: fixed;
+    z-index: 999;
     height: 100px;
-    box-shadow: 0 15px 15px -15px rgba(11, 12, 16, 0.3);
+    width: 100%;
+    box-shadow: 0 15px 15px -15px rgba(11, 12, 16, 0.35);
     background-color: #fff;
     display: flex;
     align-items: center
@@ -248,13 +250,10 @@ label.hs-main-font-element {
 }
 
 .info h3 {
-    background-image: linear-gradient(80deg, #f83333, #ffcb50);
+    color: #1e232c;
     font-size: 24px;
     line-height: 1.33;
     font-weight: 700;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
     padding-bottom: 16px;
     margin-bottom: 0
 }
@@ -283,7 +282,7 @@ label.hs-main-font-element {
     line-height: 1.67;
     letter-spacing: normal;
     text-align: center;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     display: block;
     transition: 200ms
@@ -458,3 +457,83 @@ input:-webkit-autofill:active {
 .submitted-message p {
     color: #000
 }
+
+.vantagens .box {
+    display: flex;
+}
+
+.vantagens .box img {
+    margin-right: 10px;
+    width: 88px;
+    height: 88px;
+}
+
+.vantagens .box p {
+    font-size: 0.875rem;
+}
+
+
+
+
+
+.youtube {
+    margin-bottom: 0;
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 12px
+}
+
+.youtube img {
+    width: 100%;
+    top: -16.82%;
+    left: 0
+}
+
+.youtube .play-button {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .6);
+    z-index: 1;
+    opacity: 1;
+    border-radius: 100%;
+    box-shadow: 0 10px 10px -5px #f6b428;
+    transition: .2s
+}
+
+.youtube .play-button:before {
+    content: "";
+    border-style: solid;
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent #f6b428;
+    margin-left: 4px
+}
+
+.youtube .play-button,
+.youtube img {
+    cursor: pointer
+}
+
+.youtube .play-button,
+.youtube .play-button:before,
+.youtube iframe,
+.youtube img {
+    position: absolute
+}
+
+.youtube .play-button,
+.youtube .play-button:before {
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0)
+}
+
+.youtube iframe {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0
+}
+ 
