@@ -2,6 +2,14 @@
     background-image: linear-gradient(60deg, #461b7e, #8634f2);
 }
 
+.color-purple {
+    color: #8634f2;
+}
+
+.color-white {
+    color: #fff;
+}
+
 html,
 body {
     overflow-x: hidden;
@@ -33,7 +41,7 @@ body {
     height: 100%;
     top: 0;
     right: 0;
-    background: url(https://cdn2.hubspot.net/hubfs/3453052/%5BAssinaturas%5D/Cursos-gratuitos/img/hero--bg.png);
+    background: url(../image/hero.png);
     position: absolute;
     background-position: center center;
     background-size: cover
@@ -246,11 +254,10 @@ label.hs-main-font-element {
 }
 
 .info p {
-    color: #1e232c
+    
 }
 
 .info h3 {
-    color: #1e232c;
     font-size: 24px;
     line-height: 1.33;
     font-weight: 700;
@@ -271,7 +278,7 @@ label.hs-main-font-element {
 .btn.btn-cta {
     border-radius: 8px;
     background-color: #f6b428;
-    box-shadow: 0 15px 15px -15px #f6b428;
+    box-shadow: 0 20px 20px -15px #4a0a9e;
     padding: 14px 40px;
     width: 100%;
     max-width: 360px;
@@ -285,15 +292,22 @@ label.hs-main-font-element {
     color: #000000;
     text-decoration: none;
     display: block;
-    transition: 200ms
+    transition: 200ms;
 }
 
 .btn.btn-cta:hover {
     background-color: #f6b428;
-    box-shadow: 0 18px 24px -18px #f6b428;
+    box-shadow: 0 18px 24px -18px #3c0782;
     transform: translateY(-2px)
 }
 
+.btn-span {
+    font-size: 12px;
+    font-weight: bold; 
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: #ffffff;
+}
 a,
 a:hover {
     text-decoration: none
@@ -537,3 +551,6 @@ input:-webkit-autofill:active {
     left: 0
 }
  
+.title h3 { 
+    text-align: center;
+}
