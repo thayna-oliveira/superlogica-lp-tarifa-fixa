@@ -207,19 +207,19 @@ input:focus {
 
 input.hs-button.primary.large {
     border-radius: 4px;
-    background-color: #8634f2;
+    box-shadow: 0 15px 15px -15px rgba(0, 106, 255, 0.9);
+    background-color: #006aff;
     padding: 0;
     color: #fff;
     text-transform: none;
     font-weight: 600;
-    box-shadow: 0 15px 15px -15px rgba(84, 0, 255, 0.9);
     border: 0;
     transition: 200ms
 }
 
 input.hs-button.primary.large:hover {
-    background-color: #8b41ed;
-    box-shadow: 0 22px 20px -20px rgba(84, 0, 255, 0.9);
+    box-shadow: 0 15px 15px -15px rgba(1, 93, 222, 0.9);
+    background-color: #006aff;
     transform: translateY(-2px)
 }
 
@@ -253,9 +253,7 @@ label.hs-main-font-element {
     font-size: 18px
 }
 
-.info p {
-    
-}
+.info p {}
 
 .info h3 {
     font-size: 24px;
@@ -303,11 +301,13 @@ label.hs-main-font-element {
 
 .btn-span {
     font-size: 12px;
-    font-weight: bold; 
+    font-weight: bold;
     line-height: 1.17;
     text-transform: uppercase;
     color: #ffffff;
+    margin-top: 2rem;
 }
+
 a,
 a:hover {
     text-decoration: none
@@ -550,7 +550,7 @@ input:-webkit-autofill:active {
     top: 0;
     left: 0
 }
- 
-.title h3 { 
+
+.title h3 {
     text-align: center;
 }
