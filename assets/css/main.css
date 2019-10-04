@@ -112,7 +112,7 @@ input {
     height: 48px;
     font-size: 15px;
     padding-left: 44px;
-    color: #000;
+    color: ##1e232c;
     border: solid 1px #c5cee0;
     border-radius: 4px;
     background-size: 20px 20px;
@@ -181,10 +181,7 @@ label.hs-error-msg {
 }
 
 form {
-    position: relative;
-    max-width: 290px;
-    margin-left: auto;
-    margin-right: auto
+    position: relative;  
 }
 
 .hs-form-field label:not(.hs-error-msg) {
@@ -305,7 +302,7 @@ label.hs-main-font-element {
     line-height: 1.17;
     text-transform: uppercase;
     color: #ffffff;
-    margin-top: 2rem;
+    margin-top: 2rem; 
 }
 
 a,
@@ -402,7 +399,7 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
     background-color: rgba(0, 0, 0, 0) !important;
     background-image: url(https://cdn2.hubspot.net/hubfs/3453052/%5BAssinaturas%5D/Cursos-gratuitos/img/smile.svg) !important;
-    color: #000 !important;
+    color: #1e232c !important;
     background-size: 20px 20px;
     background-position: 12px 13px;
     background-repeat: no-repeat
