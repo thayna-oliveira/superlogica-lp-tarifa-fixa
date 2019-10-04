@@ -632,6 +632,9 @@ input:-webkit-autofill:active {
         padding-bottom: 3rem;
     }
 
+
+    .down-icon {display: none;}
+    
     .box {
         flex-direction: column;
         align-items: center;
