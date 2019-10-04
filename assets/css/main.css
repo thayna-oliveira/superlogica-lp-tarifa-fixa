@@ -28,12 +28,13 @@ body {
     -webkit-font-smoothing: antialiased
 }
 
+
 .hero {
     min-height: 80vh;
     height: 100%;
     position: relative;
-    padding-bottom: 30px;
-    padding-top: 30px
+    padding-bottom: 5rem;
+    padding-top: 30px;
 }
 
 .hero--bg {
@@ -45,6 +46,30 @@ body {
     position: absolute;
     background-position: center center;
     background-size: cover
+}
+
+.hero p {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #fff
+}
+
+.hero h1 {
+    margin-top: 10.725rem;
+    font-family: "adelle", serif;
+    font-size: 2.75rem;
+    font-weight: 400;
+}
+
+.hero h2 {
+    font-size: 1.85rem;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.43;
 }
 
 .z-1 {
@@ -64,19 +89,14 @@ h1 {
     color: #fff
 }
 
-.hero p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.67;
-    letter-spacing: normal;
-    color: #fff
-}
+
 
 .card {
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 0 20px 20px -15px rgba(11, 12, 16, 0.2);
-    padding: 2rem 3rem 3rem
+    padding: 4rem 5rem;
+    margin-top: 8.3rem;
 }
 
 .card h2 {
@@ -87,6 +107,20 @@ h1 {
     color: #1e232c;
     margin-bottom: 30px
 }
+
+form {
+    position: relative;
+}
+
+.card p {
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: .02rem;
+    text-align: center;
+    color: #1e232c;
+    text-transform: uppercase;
+}
+
 
 .nav {
     position: fixed;
@@ -180,9 +214,6 @@ label.hs-error-msg {
     transform: translateY(-2px)
 }
 
-form {
-    position: relative;  
-}
 
 .hs-form-field label:not(.hs-error-msg) {
     display: none
@@ -211,7 +242,8 @@ input.hs-button.primary.large {
     text-transform: none;
     font-weight: 600;
     border: 0;
-    transition: 200ms
+    transition: 200ms;
+    margin-top: 2.5rem;
 }
 
 input.hs-button.primary.large:hover {
@@ -250,7 +282,9 @@ label.hs-main-font-element {
     font-size: 18px
 }
 
-.info p {}
+.info p {
+    font-size: 0.975rem;
+}
 
 .info h3 {
     font-size: 24px;
@@ -302,7 +336,7 @@ label.hs-main-font-element {
     line-height: 1.17;
     text-transform: uppercase;
     color: #ffffff;
-    margin-top: 2rem; 
+    margin-top: 2rem;
 }
 
 a,
@@ -312,8 +346,7 @@ a:hover {
 
 .inline-link {
     text-decoration: none;
-    color: #0065ff;
-    font-weight: 600;
+    color: #1e232c; 
     position: relative;
     box-sizing: border-box;
     padding-top: 5px;
@@ -357,8 +390,7 @@ a:hover {
     top: calc(100% - 4px);
     left: 0;
     right: 0;
-    height: 2px;
-    background: #b7d4ff;
+    height: 2px; 
     transform: scaleX(1);
     transition: transform 300ms ease-out, color 200ms;
     transform-origin: right center
@@ -392,6 +424,12 @@ a:hover {
 .social-icons {
     justify-content: flex-end
 }
+
+.social-icons img {
+    width: 2.45rem;
+    margin-left: 1.513rem;
+}
+
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -428,7 +466,8 @@ input:-webkit-autofill:active {
     }
 
     .card {
-        margin-top: 30px
+        max-width: 80%;
+        margin: 3.125rem auto;
     }
 
     .footer p {
@@ -449,12 +488,10 @@ input:-webkit-autofill:active {
         font-size: 24px
     }
 
-    .hero p {
-        font-size: 16px
-    }
+     
 
     .hero {
-        padding: 0
+        padding-bottom: 3rem;
     }
 }
 
@@ -471,21 +508,19 @@ input:-webkit-autofill:active {
 
 .vantagens .box {
     display: flex;
+    margin-bottom: 3.375rem;
 }
 
 .vantagens .box img {
-    margin-right: 10px;
+    margin-right: 2.713rem;
     width: 88px;
     height: 88px;
 }
 
 .vantagens .box p {
     font-size: 0.875rem;
+    padding-right: 2.375rem;
 }
-
-
-
-
 
 .youtube {
     margin-bottom: 0;
@@ -550,4 +585,7 @@ input:-webkit-autofill:active {
 
 .title h3 {
     text-align: center;
+    font-family: adelle, serif;
+    font-weight: 400;
+    font-size: 2.25rem;
 }

@@ -36,6 +36,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/bootstrap-grid.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- Bootstrap CSS -->
     <!-- typekit - proxima-nova -->
     <link rel="stylesheet" type="text/css" href="https://use.typekit.net/thw4ntx.css" />
 
@@ -44,11 +45,6 @@
 
     <!-- Javascript -->
     <script text="javascript" src="assets/js/app.js"></script>
-
-    <!--[if lte IE 8]>
-                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-                    <![endif]-->
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
 
 </head>
 
@@ -65,17 +61,17 @@
     <section class="hero d-flex align-items-center flex-wrap" id="hero">
         <div class="container position-relative z-1">
             <div class="row">
-                <div class="col-12 col-lg-6 col-xl-5 mr-auto mt-4">
-                    <h1 class="mb-4 mt-2">
+                <div class="col-12 col-lg-6 col-xl-6">
+                    <h1 class="mb-4">
                         Controle a inadimplência da sua escola o ano inteiro
                     </h1>
-                    <p>
+                    <p class="mt-5 mb-5">
                         O Superlógica Educacional é o sistema de gestão para cursos e escolas pioneiro no recebimento de
                         mensalidades via cartão de crédito, com tarifa fixa com valor semelhante ao de um boleto.
                     </p>
-                    <p>
+                    <h2 class="mt-5 mb-5">
                         Conheças as principais vantagens do recebimento com Tarifa Fixa
-                    </p>
+                    </h2>
                     <p>
                         Com o Superlógica Educacional sua escola consegue otimizar a gestão educacional e aumentar as
                         oportunidades de crescimento.
@@ -127,24 +123,16 @@
     <section class="info" id="info">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-6 ml-auto mr-auto title">
+                <div class="col-12 col-lg-8 ml-auto mr-auto mt-5 mb-5 title">
                     <h3 class="color-purple">
                         Principais vantagens para escolas
                     </h3>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-12 col-lg-5 vantagens">
+            <div class="row vantagens">
 
-                    <div class="box">
-                        <img src="./assets/icons/pagamento.svg">
-                        <div>
-                            <h3>Aumente o lucro</h3>
-                            <p>Corte gastos e aumente seu lucro recebendo via cartão de crédito com tarifa fixa. Assim,
-                                você pode eliminar o custo da emissão de boletos registrados.</p>
-                        </div>
-                    </div>
+                <div class="col-12 col-lg-6 vantagens">
 
 
                     <div class="box">
@@ -152,83 +140,130 @@
                         <div>
                             <h3>Aumente o lucro</h3>
                             <p>Corte gastos e aumente seu lucro recebendo via cartão de crédito com tarifa fixa. Assim,
-                                você pode eliminar o custo da emissão de boletos registrados.</p>
+                                você
+                                pode eliminar o custo da emissão de boletos registrados.</p>
                         </div>
                     </div>
 
                     <div class="box">
-                        <img src="./assets/icons/pagamento.svg">
+                        <img src="./assets/icons/sale-1.svg">
                         <div>
-                            <h3>Aumente o lucro</h3>
-                            <p>Corte gastos e aumente seu lucro recebendo via cartão de crédito com tarifa fixa. Assim,
-                                você pode eliminar o custo da emissão de boletos registrados.</p>
+                            <h3>O fim da taxa percentual</h3>
+                            <p>Faça a cobrança das mensalidades no cartão de crédito pagando apenas uma tarifa fixa
+                                semelhante à do boleto bancário, e sem custos adicionais!</p>
                         </div>
                     </div>
+
+                    <div class="box">
+                        <img src="./assets/icons/chart-line-1.svg">
+                        <div>
+                            <h3>Controle de pagamentos confirmados</h3>
+                            <p>O controle de pagamentos acontece automaticamente com o cartão de crédito, enquanto no
+                                boleto, é preciso aguardar a confirmação para checá-la.</p>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="col-12 col-lg-5 ml-auto vantagens">
+
+                <div class="col-12 col-lg-6 ml-auto vantagens">
                     <div class="box">
-                        <img src="./assets/icons/pagamento.svg">
+                        <img src="./assets/icons/credit-card.svg">
                         <div>
-                            <h3>Aumente o lucro</h3>
-                            <p>Corte gastos e aumente seu lucro recebendo via cartão de crédito com tarifa fixa. Assim,
-                                você pode eliminar o custo da emissão de boletos registrados.</p>
+                            <h3>Diminua a inadimplência</h3>
+                            <p>O processo de recebimento por cartão de crédito é programado e automático. Assim, a
+                                receita da sua escola não será mais impactada por falta de pagamento.</p>
                         </div>
                     </div>
 
                     <div class="box">
-                        <img src="./assets/icons/pagamento.svg">
+                        <img src="./assets/icons/share.svg">
                         <div>
-                            <h3>Aumente o lucro</h3>
-                            <p>Corte gastos e aumente seu lucro recebendo via cartão de crédito com tarifa fixa. Assim,
-                                você pode eliminar o custo da emissão de boletos registrados.</p>
+                            <h3>Atraia mais alunos</h3>
+                            <p>O pagamento no cartão de crédito já é bastante requisitado pelos pais. O processo é feito
+                                online, com menos barreiras para que eles desistam da matrícula.</p>
                         </div>
                     </div>
 
                     <div class="box">
-                        <img src="./assets/icons/pagamento.svg">
+                        <img src="./assets/icons/attachment-1.svg">
                         <div>
-                            <h3>Aumente o lucro</h3>
-                            <p>Corte gastos e aumente seu lucro recebendo via cartão de crédito com tarifa fixa. Assim,
-                                você pode eliminar o custo da emissão de boletos registrados.</p>
+                            <h3>Mais tranquilidade e segurança</h3>
+                            <p>Com o processo automático, diminui-se a inadimplência e evitam-se os atritos na cobrança
+                                das dívidas . Assim, é possível focar no relacionamento com os pais.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <div class="row">
+                <div class="col-12 col-lg-8 ml-auto mr-auto mt-5 mb-5 title">
+                    <h3 class="color-purple">
+                        Principais vantagens para pais e alunos
+                    </h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-6 vantagens">
+
+                    <div class="box">
+                        <img src="./assets/icons/briefcase.svg">
+                        <div>
+                            <h3>Acúmulo de milhas</h3>
+                            <p>Pagando a mensalidade escolar com o cartão de crédito os pais podem acumular pontos ou milhas de vantagem dos programas de fidelidade dos cartões.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-lg-6 ml-auto vantagens">
+
+                    <div class="box">
+                        <img src="./assets/icons/boleto.svg">
+                        <div>
+                            <h3>Controle nas contas do mês</h3>
+                            <p>Os pais conseguem administrar melhor o seu planejamento financeiro, pois preveem o valor da mensalidade nas faturas, tendo uma visão consistente das finanças. </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
     </section>
 
     <section class="info hero color-white text-center" id="info">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-9 ml-auto mr-auto">
+                <div class="col-12 col-lg-7 ml-auto mr-auto title">
                     <h3>
                         Assista os depoimentos de alguns de nossos clientes:
                     </h3>
+                </div>
+            </div>
 
-
+            <div class="row">
+                <div class="col-12 col-lg-9 ml-auto mr-auto ">
                     <div class="video-wrapper mb-5 mt-5">
-                        <div class="youtube" data-embed="ZnuCHWBgTIM">
+                        <div class="youtube" data-embed="8_Kdch0v4Jo">
                             <div class="play-button"></div>
-                            <img src="https://img.youtube.com/vi/ZnuCHWBgTIM/sddefault.jpg">
+                            <img src="https://img.youtube.com/vi/8_Kdch0v4Jo/sddefault.jpg">
                         </div>
                     </div>
-
-
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-12 col-lg-12">
 
-                    <h3>Aproveite os seus 15 dias gratuitos</h3>
-                    <p>Transforme a gestão financeira e acadêmica da sua escola com um sistema único e na nuvem!</p>
-
+                    <h3 class="mb-2 mt-3">Aproveite os seus 15 dias gratuitos</h3>
+                    <p class="mb-5 mt-2">Transforme a gestão financeira e acadêmica da sua escola com um sistema único e
+                        na nuvem!</p>
 
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 d-flex justify-content-center">
+                <div class="col-12 d-flex justify-content-center mb-2">
                     <a class="btn btn-cta" href="#hero">
                         Aproveitar agora
                     </a>
@@ -252,71 +287,44 @@
             <div class="row">
                 <div class="col-lg-4">
                     <p>
-                            Superlógica Educacional<br>
-                            Sistema para Escolas e Cursos Livres 
+                        Superlógica Educacional<br>
+                        Sistema para Escolas e Cursos Livres
                     </p>
                 </div>
                 <div class="col-lg-3 ml-auto">
-                        <p>
-                                Vendas: <a href="tel:0800-709-6800" class="inline-link">0800-709-6800</a>
-                                Suporte: <a href="tel:0800-709-6800" class="inline-link">0800-709-6800</a>
+                    <p>
+
+                        Vendas: <a href="tel:0800-709-6800" class="inline-link">0800-709-6800</a>
+                        <br>
+                        Suporte: <a href="tel:(19) 4009-6800" class="inline-link">(19) 4009-6800</a>
 
 
-                        </p>
-                    </div>
+                    </p>
+                </div>
 
                 <div class="col-lg-4 d-flex social-icons">
                     <a href="https://www.facebook.com/superlogica/" target="_blank">
-                        <svg width="28px" height="28px" viewbox="0 0 28 28" version="1.1"
-                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g id="Brands/Facebook-New" transform="translate(-2.000000, -2.000000)" fill="#333A46">
-                                    <g transform="translate(1.333333, 2.666667)" id="Path">
-                                        <path
-                                            d="M28.0426636,13.4145879 C28.0426636,20.0909276 23.151276,25.6246416 16.7566682,26.6280735 L16.7566682,17.2810863 L19.8733771,17.2810863 L20.4664167,13.4145879 L16.7566682,13.4145879 L16.7566682,10.9054649 C16.7566682,9.84766524 17.2748579,8.8165897 18.9364862,8.8165897 L20.6231666,8.8165897 L20.6231666,5.52484101 C20.6231666,5.52484101 19.0924234,5.26359112 17.6289827,5.26359112 C14.5736129,5.26359112 12.5766652,7.11533038 12.5766652,10.467689 L12.5766652,13.4145879 L9.18041654,13.4145879 L9.18041654,17.2810863 L12.5766652,17.2810863 L12.5766652,26.6280735 C6.18205729,25.6246138 1.29066969,20.0909276 1.29066969,13.4145879 C1.29066969,6.02723037 7.27930685,0.0385932068 14.6666643,0.0385932068 C22.0540218,0.0385932068 28.0426636,6.02723037 28.0426636,13.4145879 L28.0426636,13.4145879 Z">
-                                        </path>
-                                    </g>
-                                </g>
-                            </g>
-                        </svg>
+                        <img src="./assets/icons/blogger.svg" />
+                    </a>
+                    <a href="https://www.facebook.com/superlogica/" target="_blank">
+                        <img src="./assets/icons/facebook.svg" />
+                    </a>
+
+                    <a href="https://www.facebook.com/superlogica/" target="_blank">
+                        <img src="./assets/icons/linkedin.svg" />
+                    </a>
+
+                    <a href="https://www.facebook.com/superlogica/" target="_blank">
+                        <img src="./assets/icons/twitter.svg" />
                     </a>
 
 
-                    <a href="https://www.linkedin.com/company/superlogica-tecnologias/" target="_blank">
-                        <svg width="24px" height="24px" viewbox="0 0 24 24" version="1.1"
-                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g id="Brands/Linkedin" transform="translate(-4.000000, -4.000000)" fill="#333A46">
-                                    <g transform="translate(4.000000, 4.000000)" id="Shape">
-                                        <path
-                                            d="M22.032,0.296 L1.962775,0.296 C1.043175,0.296 0.296,1.053625 0.296,1.983675 L0.296,22.016325 C0.296,22.946375 1.043175,23.704 1.962775,23.704 L22.032,23.704 C22.9516,23.704 23.704,22.946375 23.704,22.016325 L23.704,1.983675 C23.704,1.053625 22.9516,0.296 22.032,0.296 Z M7.37065,20.36 L3.90125,20.36 L3.90125,9.18895 L7.375875,9.18895 L7.375875,20.36 L7.37065,20.36 Z M5.63595,7.66325 C4.523025,7.66325 3.624325,6.759325 3.624325,5.651625 C3.624325,4.543925 4.523025,3.64 5.63595,3.64 C6.74365,3.64 7.647575,4.543925 7.647575,5.651625 C7.647575,6.76455 6.748875,7.66325 5.63595,7.66325 L5.63595,7.66325 Z M20.375675,20.36 L16.906275,20.36 L16.906275,14.926 C16.906275,13.6302 16.88015,11.963425 15.10365,11.963425 C13.2958,11.963425 13.018875,13.374175 13.018875,14.83195 L13.018875,20.36 L9.549475,20.36 L9.549475,9.18895 L12.8778,9.18895 L12.8778,10.71465 L12.924825,10.71465 C13.38985,9.83685 14.523675,8.912025 16.21135,8.912025 C19.72255,8.912025 20.375675,11.2267 20.375675,14.2363 L20.375675,20.36 L20.375675,20.36 Z">
-                                        </path>
-                                    </g>
-                                </g>
-                            </g>
-                        </svg>
-                    </a>
-
-
-                    <a href="https://twitter.com/superlogica" target="_blank">
-
-                        <svg width="28px" height="22px" viewbox="0 0 28 22" version="1.1"
-                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g id="Brands/Twitter" transform="translate(-2.000000, -5.000000)" fill="#333A46">
-                                    <g transform="translate(1.333333, 4.000000)" id="Path">
-                                        <path
-                                            d="M25.2928014,6.55113488 C25.3097827,6.78876788 25.3097827,7.02645313 25.3097827,7.26408613 C25.3097827,14.5122061 19.7930709,22.8637416 9.71012717,22.8637416 C6.60376017,22.8637416 3.71809717,21.9640489 1.29071892,20.4024531 C1.73207467,20.4533446 2.15639692,20.4703259 2.61473392,20.4703259 C5.17785767,20.4703259 7.53736317,19.6046479 9.42155042,18.1278539 C7.01115342,18.0769101 4.99116842,16.4982809 4.29519842,14.3255169 C4.63471892,14.3764084 4.97418717,14.4103709 5.33068892,14.4103709 C5.82293617,14.4103709 6.31523567,14.3424459 6.77352042,14.2236816 C4.26128817,13.7144009 2.37704867,11.5077266 2.37704867,8.84271538 L2.37704867,8.77484263 C3.10692892,9.18223588 3.95573017,9.43685013 4.85531842,9.47076038 C3.37852442,8.48621363 2.41101117,6.80574913 2.41101117,4.90458063 C2.41101117,3.88612363 2.68255442,2.95252063 3.15787267,2.13773413 C5.85684642,5.46475288 9.91379767,7.63746463 14.4629439,7.87514988 C14.3780899,7.46775663 14.3271462,7.04343438 14.3271462,6.61905988 C14.3271462,3.59754688 16.7715057,1.13625838 19.8099477,1.13625838 C21.3885769,1.13625838 22.8144272,1.79826588 23.8159552,2.86766663 C25.0550639,2.63003363 26.2432812,2.17169663 27.2957529,1.54365163 C26.8883074,2.81677513 26.0226294,3.88617588 24.8853559,4.56511238 C25.9887192,4.44634813 27.0581199,4.14073788 28.0426144,3.71641563 C27.2958574,4.80274538 26.3622022,5.77025863 25.2928014,6.55113488 Z">
-                                        </path>
-                                    </g>
-                                </g>
-                            </g>
-                        </svg>
-                    </a>
                 </div>
             </div>
         </div>
     </section>
+
+
 
 
 </body>
