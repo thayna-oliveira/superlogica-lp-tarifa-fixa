@@ -107,8 +107,8 @@ h1 {
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 0 20px 20px -15px rgba(11, 12, 16, 0.2);
-    padding: 4rem 5rem;
-    margin-top: 8.3rem;
+    padding: 3.5rem 4.5rem;
+    margin-top: 8rem;
 }
 
 .card h2 {
@@ -126,13 +126,12 @@ form {
 
 .card p {
     font-size: 0.75rem;
-    font-weight: bold;
+    font-weight: normal;
     letter-spacing: .02rem;
     text-align: center;
     color: #1e232c;
-    text-transform: uppercase;
+    text-transform: none;
 }
-
 
 .nav {
     position: fixed;
@@ -219,13 +218,12 @@ select[name=industry] {
 }
 
 label.hs-error-msg {
-    color: red;
-    position: absolute;
+    color: red; 
     left: 0;
     font-size: 12px;
-    transform: translateY(-2px)
+    transform: translateY(-3px);
+    margin-bottom: 0;
 }
-
 
 .hs-form-field label:not(.hs-error-msg) {
     display: none
@@ -255,7 +253,7 @@ input.hs-button.primary.large {
     font-weight: 600;
     border: 0;
     transition: 200ms;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
 }
 
 input.hs-button.primary.large:hover {
@@ -266,13 +264,12 @@ input.hs-button.primary.large:hover {
 
 ul.no-list.hs-error-msgs.inputs-list {
     list-style: none;
-    padding-inline-start: 0;
-    background: rgba(255, 0, 0, 0.13);
-    border-radius: 8px;
-    font-size: 14px;
+    padding-inline-start: 0; 
     text-align: center;
     padding: 0;
-    color: red
+    color: red;
+    padding: 0;
+    margin: 0;
 }
 
 label.hs-main-font-element {
@@ -634,7 +631,7 @@ input:-webkit-autofill:active {
 
 
     .down-icon {display: none;}
-    
+
     .box {
         flex-direction: column;
         align-items: center;
