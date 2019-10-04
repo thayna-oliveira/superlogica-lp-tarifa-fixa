@@ -21,11 +21,6 @@ html,
 body {
     font-family: proxima-nova, sans-serif;
     font-style: normal;
-    font-stretch: normal;
-    text-rendering: optimizeLegibility;
-    -moz-osx-font-smoothing: grayscale;
-    font-smoothing: antialiased;
-    -webkit-font-smoothing: antialiased
 }
 
 
@@ -146,7 +141,7 @@ input {
     height: 48px;
     font-size: 15px;
     padding-left: 44px;
-    color: ##1e232c;
+    color: #1e232c;
     border: solid 1px #c5cee0;
     border-radius: 4px;
     background-size: 20px 20px;
@@ -337,6 +332,7 @@ label.hs-main-font-element {
     text-transform: uppercase;
     color: #ffffff;
     margin-top: 2rem;
+    letter-spacing: 0.03rem;
 }
 
 a,
@@ -430,6 +426,10 @@ a:hover {
     margin-left: 1.513rem;
 }
 
+.social-icons a:first-child{
+    margin-left: -1.513rem;
+}
+
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -465,60 +465,29 @@ input:-webkit-autofill:active {
         margin-right: 0 !important;
         margin-bottom: 2rem;
     }
+
+    .hero h1 {
+        margin-top: 7.725rem;
+        font-size: 2.65rem;
+    }
+
 }
 
 
-@media(max-width:992px) {
-    .hero--bg {
-        display: none
-    }
 
-    .card {
-        max-width: 85%;
-        margin: 1.125rem auto;
-        padding: 2.5rem;
-    }
-
-    .footer p {
-        text-align: center;
-        margin-bottom: 30px
-    }
-
-    .footer {
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    .social-icons {
-        justify-content: center;
-    }
-
-    h1 {
-        font-size: 24px
-    }
-
-
-
-    .hero {
-        padding-bottom: 3rem;
-    }
-
-    .box {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-
-
-}
 
 .down-icon {
     position: absolute;
     bottom: 50px;
     left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
+    -webkit-animation: anime 5s;
+    animation: anime .8s infinite;
+    animation-timing-function: ease-out;
+    animation-delay: 400ms;
+    transition: all .2s ease-in-out;
+    width: 100%;
+    text-align: center;
 }
 
 .submitted-message p {
@@ -527,7 +496,7 @@ input:-webkit-autofill:active {
 
 .box {
     display: flex;
-    margin-bottom: 3.375rem;
+    margin-bottom: 5.625rem;
 }
 
 .box img {
@@ -565,15 +534,19 @@ input:-webkit-autofill:active {
     z-index: 1;
     opacity: 1;
     border-radius: 100%;
-    box-shadow: 0 10px 10px -5px #f6b428;
+    box-shadow: 0 10px 10px -5px #232322;
     transition: .2s
+}
+
+.youtube .play-button:hover {
+    box-shadow: 1px 16px 20px -5px #232322;
 }
 
 .youtube .play-button:before {
     content: "";
     border-style: solid;
     border-width: 20px 0 20px 30px;
-    border-color: transparent transparent transparent #f6b428;
+    border-color: transparent transparent transparent #8634f2;
     margin-left: 4px
 }
 
@@ -608,4 +581,63 @@ input:-webkit-autofill:active {
     font-family: adelle, serif;
     font-weight: 400;
     font-size: 2.25rem;
+}
+
+
+@media(max-width:992px) {
+    .hero--bg {
+        display: none
+    }
+
+    .card {
+        max-width: 90%;
+        margin: 1.125rem auto;
+        padding: 2.5rem;
+    }
+
+    .footer p {
+        text-align: center;
+        margin-bottom: 30px
+    }
+
+    .footer {
+        text-align: center;
+        margin-bottom: 30px;
+        padding-top: 2rem;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 24px
+    }
+
+    .hero {
+        padding-bottom: 3rem;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .title h3 {
+        font-size: 1.85rem;
+    }
+
+    .youtube .play-button {
+        width: 3.75rem;
+        height: 3.75rem;
+       
+    }
+
+    .youtube .play-button:before {
+        border-width: 10px 0 10px 20px; 
+        margin-left: 2px;
+    }
+
 }
