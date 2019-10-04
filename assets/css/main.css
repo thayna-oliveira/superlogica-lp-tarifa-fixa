@@ -1,3 +1,16 @@
+
+@media(min-width:992px) {
+    .nav .container {
+        max-width: 1250px;
+    }
+}
+
+@media(min-width:992px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
 .hero {
     background-image: linear-gradient(60deg, #461b7e, #8634f2);
 }
@@ -57,7 +70,11 @@ body {
     margin-top: 10.725rem;
     font-family: "adelle", serif;
     font-size: 2.75rem;
-    font-weight: 400;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
 }
 
 .hero h2 {
@@ -272,9 +289,7 @@ label.hs-main-font-element {
 }
 
 .info {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    font-size: 18px
+    padding-top: 60px; 
 }
 
 .info p {
@@ -426,7 +441,7 @@ a:hover {
     margin-left: 1.513rem;
 }
 
-.social-icons a:first-child{
+.social-icons a:first-child {
     margin-left: -1.513rem;
 }
 
@@ -501,8 +516,7 @@ input:-webkit-autofill:active {
 
 .box img {
     margin-right: 2.713rem;
-    width: 88px;
-    height: 88px;
+    width: 88px !important; 
 }
 
 .box p {
@@ -632,11 +646,11 @@ input:-webkit-autofill:active {
     .youtube .play-button {
         width: 3.75rem;
         height: 3.75rem;
-       
+
     }
 
     .youtube .play-button:before {
-        border-width: 10px 0 10px 20px; 
+        border-width: 10px 0 10px 20px;
         margin-left: 2px;
     }
 
