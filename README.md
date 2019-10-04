@@ -1,4 +1,4 @@
-# LP Sponsors 
+# Landing Page Tarifa Fixa
 
 [Card #2970](https://trello.com/c/X18eQmf5/2970-next-lp-patrocinador)
 
